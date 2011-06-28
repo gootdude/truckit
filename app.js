@@ -1,12 +1,11 @@
 express = require('express');
-force_domain = require('connect-force-domain');
-app = module.exports = express.createServer(force_domain('www.nodrr.com'));
+app = module.exports = express.createServer();
 sys = require('sys');
 fs = require('fs');
 http = require('http');
 
 mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/db');
+mongoose.connect('mongodb://dbh15.mongolab.com:27157/heroku_app581543');
 Schema = mongoose.Schema;
 ObjectId = Schema.ObjectId;
 
@@ -96,6 +95,6 @@ require('./controllers/user.js');
 
 //Only listen on $ node app.js   
 if (!module.parent) {              
-  app.listen(80);
+  app.listen(process.env.PORT || 3000);
   console.log("Express server listening on port %d", app.address().port)
 }

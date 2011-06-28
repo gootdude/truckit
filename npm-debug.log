@@ -1,0 +1,255 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'nods' ]
+info using npm@1.0.14
+info using node@v0.5.0-pre
+verbose config file /Users/gamin/.npmrc
+verbose config file /usr/local/etc/npmrc
+silly testEngine { name: 'truckit',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: 
+silly testEngine    { express: '',
+silly testEngine      mongoose: '',
+silly testEngine      connect: '',
+silly testEngine      'connect-auth': '' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'truckit@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/package.json
+verbose loadDefaults truckit@0.0.1
+silly testEngine { name: 'connect',
+silly testEngine   version: '1.5.1',
+silly testEngine   description: 'High performance middleware framework',
+silly testEngine   keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/senchalabs/connect.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca',
+silly testEngine      url: 'http://tjholowaychuk.com' },
+silly testEngine   dependencies: { qs: '>= 0.0.6', mime: '>= 0.0.1' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.7.6',
+silly testEngine      koala: '0.1.2',
+silly testEngine      less: '1.1.1',
+silly testEngine      sass: '0.5.0',
+silly testEngine      markdown: '0.2.1',
+silly testEngine      ejs: '0.4.3',
+silly testEngine      should: '0.2.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/node_modules/connect/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'connect@1.5.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/node_modules/connect/package.json
+verbose loadDefaults connect@1.5.1
+silly testEngine { name: 'connect-auth',
+silly testEngine   description: 'Middleware for Connect (node.js) for handling your authentication needs.',
+silly testEngine   version: '0.2.3',
+silly testEngine   author: { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   main: 'lib/index.js',
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   devDependencies: { expresso: '0.7.7' },
+silly testEngine   dependencies: { connect: '1.4.3' },
+silly testEngine   repositories: 
+silly testEngine    [ { type: 'git',
+silly testEngine        url: 'http://github.com/ciaranj/connect-auth.git' } ],
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/node_modules/connect-auth/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'connect-auth@0.2.3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/node_modules/connect-auth/package.json
+verbose loadDefaults connect-auth@0.2.3
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.3.12',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.5.1 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   devDependencies: 
+silly testEngine    { 'connect-form': '0.2.1',
+silly testEngine      ejs: '0.4.2',
+silly testEngine      expresso: '0.7.2',
+silly testEngine      hamljs: '0.5.1',
+silly testEngine      jade: '0.11.0',
+silly testEngine      stylus: '0.13.0',
+silly testEngine      should: '0.2.1',
+silly testEngine      'express-messages': '0.0.2',
+silly testEngine      'node-markdown': '>= 0.0.1',
+silly testEngine      'connect-redis': '>= 0.0.1' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   scripts: { test: 'make test', prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/node_modules/express/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express@2.3.12',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/node_modules/express/package.json
+verbose loadDefaults express@2.3.12
+silly testEngine { name: 'jade',
+silly testEngine   description: 'Jade template engine',
+silly testEngine   version: '0.12.4',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/jade.git' },
+silly testEngine   main: './index.js',
+silly testEngine   bin: { jade: './bin/jade' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.6.4',
+silly testEngine      'coffee-script': '>= 0.0.1',
+silly testEngine      sass: '>= 0.0.1',
+silly testEngine      less: '>= 0.0.1',
+silly testEngine      markdown: '>= 0.0.1',
+silly testEngine      stylus: '>= 0.0.1' },
+silly testEngine   scripts: { prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.1.98' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/node_modules/jade/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'jade@0.12.4',
+silly testEngine   dependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/node_modules/jade/package.json
+verbose loadDefaults jade@0.12.4
+silly testEngine { name: 'mongoose',
+silly testEngine   description: 'Mongoose MongoDB ORM',
+silly testEngine   version: '1.5.0',
+silly testEngine   author: 
+silly testEngine    { name: 'Guillermo Rauch',
+silly testEngine      email: 'guillermo@learnboost.com' },
+silly testEngine   keywords: 
+silly testEngine    [ 'mongodb',
+silly testEngine      'mongoose',
+silly testEngine      'orm',
+silly testEngine      'data',
+silly testEngine      'datastore',
+silly testEngine      'nosql' ],
+silly testEngine   dependencies: { hooks: '0.1.9' },
+silly testEngine   devDependencies: { should: '0.2.1' },
+silly testEngine   directories: { lib: './lib/mongoose' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/mongoose.git' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/node_modules/mongoose/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'mongoose@1.5.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@1.5.0
+silly testEngine { name: 'oauth',
+silly testEngine   description: 'Library for interacting with OAuth 1.0, 1.0A, 2 and Echo.  Provides simplified client access and allows for construction of more complex apis and OAuth providers.',
+silly testEngine   version: '0.9.1',
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: 'index.js',
+silly testEngine   author: { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/ciaranj/node-oauth.git' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/gamin/sandbox/truckit/node_modules/oauth/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'oauth@0.9.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.14',
+silly testEngine   _nodeVersion: 'v0.5.0-pre',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/gamin/sandbox/truckit/node_modules/oauth/package.json
+verbose loadDefaults oauth@0.9.1
+verbose from cache /Users/gamin/sandbox/truckit/package.json
+verbose into /Users/gamin/sandbox/truckit [ 'nods' ]
+verbose cache add [ 'nods', null ]
+info addNamed [ 'nods', '' ]
+verbose addNamed [ null, '' ]
+verbose GET nods
+verbose raw, before any munging nods
+verbose url resolving [ 'http://registry.npmjs.org/', './nods' ]
+verbose url resolved http://registry.npmjs.org/nods
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/nods',
+verbose url parsed   pathname: '/nods' }
+verbose response http://registry.npmjs.org/nods
+silly chunk {"error":"not_found","reason":"document not found"}
+silly chunk 
+silly get cb [ 404,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     date: 'Tue, 28 Jun 2011 02:10:50 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '52',
+silly get cb     'cache-control': 'must-revalidate' } ]
+ERR! 404 'nods' is not in the npm registry.
+ERR! 404 You should bug the author to publish it.
+ERR! 404 Note that you can also install from a tarball or folder.
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "install" "nods"
+verbose exit [ 1, true ]

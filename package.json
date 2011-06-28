@@ -1,0 +1,10 @@
+{
+	"name": "truckit",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "",
+		"mongoose": "",
+		"connect":"",
+		"connect-auth":""
+	}
+}
