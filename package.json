@@ -5,6 +5,7 @@
 		"express": "",
 		"mongoose": "",
 		"connect":"",
-		"connect-auth":""
+		"connect-auth":"",
+		"oauth":""
 	}
 }
